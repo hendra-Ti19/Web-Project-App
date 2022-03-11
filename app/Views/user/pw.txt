@@ -1,0 +1,8 @@
+
+                    <div class="mb-1 form-group-row">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="text" class="form-control <?= ($validation->hasError('password')) ? 'is-invalid' : '';  ?>" id="password" name="password" value="<?= (old('password')) ? old('password') : password_verify(user()->password_hash,user()->reset_hash) ; ?>" >
+                        <div class="invalid-feedback">
+                            <?= $validation->getError('password'); ?>
+                        </div>
+                    </div>

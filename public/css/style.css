@@ -1,0 +1,17 @@
+.sampul{
+    width: 50px;
+}
+.table > tbody > tr > *{
+    vertical-align: middle;
+}
+.sampul-detail{
+    margin: 5px;
+    width: 200px;
+    display: block;
+}
+section .bagian1{
+  margin-top: 100px;
+}
+
+
+  
